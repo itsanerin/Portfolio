@@ -1,7 +1,7 @@
-div.container {
+.container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, max-content);
+    grid-template-rows: repeat(6, max-content);
     grid-column-gap: 20px;
     grid-row-gap: 1em;
     width: 90%;
@@ -15,7 +15,7 @@ body {
     color: white;
 }
 
-div.header {
+.header {
     grid-column: 1 / span 4;
     grid-row: 1;
     position: relative;
@@ -31,7 +31,7 @@ div.header {
     margin: 40px auto;
 }
 
-div.header ul {
+.header ul {
     padding-top: 2em;
     margin: 40px auto;
     text-align: center;
@@ -53,5 +53,27 @@ a {
 
 a:hover {
     border-bottom: 1px solid skyblue;
+    color: skyblue;
+}
+
+a.active {
+    color: skyblue;
+}
+
+.connect {
+    grid-column: 2 / span 2;
+    grid-row: 5;
+    font-weight: 200;
+    margin-bottom: 0;
+    font-size: 30px
+}
+
+.contact {
+    grid-column: 2 / span 2;
+    grid-row: 6;
+    margin: 0 auto;
+}
+
+.contact a {
     color: skyblue;
 }

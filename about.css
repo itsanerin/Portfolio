@@ -12,3 +12,12 @@ p {
     line-height: 1.5em;
     letter-spacing: .08em;
 }
+
+.connect {
+    grid-row: 3;
+    text-align: center;
+}
+
+.contact {
+    grid-row: 4;
+}
