@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>My First Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../game/game.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Megrim|Raleway:100,100i,200,200i,300,300i,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="logo">Its{An:Erin;}</h1>
+            <ul>
+                <li><a href="../../about.html">About Me</a></li>
+                <li><a href="../../writing.html">My Writing</a></li>
+                <li><a href="../../index.html" class="active">Portfolio</a></li>
+            </ul>
+        </div>
+
+        <!--     </div>-->
+        <div id="container"> </div>
+        <img src="gametv.png" id="tv">
+
+        <!-- libraries -->
+        <script src="p5.min.js"></script>
+        <script src="p5.play.js"></script>
+        <script src="p5.sound.js"></script>
+
+        <!-- game files -->
+        <script src="settings.js"></script>
+        <script src="assets.js"></script>
+        <script src="setup.js"></script>
+        <script src="scenes.js"></script>
+        <script src="game.js"></script>
+
+        <!-- Stop arrow keys from scrolling -->
+        <script>
+            window.addEventListener("keydown", ev => {
+                ev.preventDefault();
+            })
+
+        </script>
+
+        <p>
+            <i>Bizzy Bee</i> is a browser game coded entirely in JavaScript using the p5.play library. All images and sound effects created by me. Background music created by Jerimiah Black.
+        </p>
+
+    </div>
+
+    <footer>
+        <h2 class="connect">Connect With Me:</h2>
+        <a href="https://www.linkedin.com/in/itsanerin/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/itsanerin/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/itsanerin" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:erinxnxbrady@gmail.com" target="_top"><i class="far fa-envelope"></i></a>
+    </footer>
+</body>
+
+</html>

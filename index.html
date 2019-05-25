@@ -4,9 +4,11 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./style.css" rel="stylesheet" />
-    <link href="./portfolio.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/portfolio.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Megrim|Raleway:100,100i,200,200i,300,300i,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>It's An Erin</title>
 </head>
 
@@ -15,6 +17,7 @@
         <div class="header">
             <h1 class="logo">Its{An:Erin;}</h1>
             <ul>
+                <li><a href="https://drive.google.com/file/d/1yn4zg2_r78tLpfrA50GpMMaCSEDP8n-f/view?usp=sharing" target="_blank">Resume</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="writing.html">My Writing</a></li>
                 <li><a href="index.html" class="active">Portfolio</a></li>
@@ -27,24 +30,54 @@
             <h2 class="block1text">A dynamic developer for the web driven to explore the creative application of technical aptitude.</h2>
         </div>
 
-        <h2 class="subtitle">Latest Work</h2>
-        <div class="game">
-            <a href="game/index.html" class="game"> <img src="images/gametvgif.gif">
+        <h2 class="subtitle" id="latest">Latest Work</h2>
+
+        <div class="project" id="oh-hiroshima">
+            <a href="project-pages/oh-hiroshima.html" target="blank">
+                <img src="images/hiroshima.jpg">
+                <p><i>Oh Hiroshima</i> Musician Site</p>
+            </a>
+
+        </div>
+
+        <div class="project" id="nanny">
+            <a href="project-pages/nanny.html" target="blank">
+                <img src="images/nannyweb.JPG">
+                <p><i>Nanny & Me</i> Nanny Services Site</p>
+            </a>
+
+        </div>
+        <h2 class="subtitle" id="other">Other Work</h2>
+
+        <div class="project" id="game">
+            <a href="project-pages/game/game.html" class="game">
+                <img src="images/gametvgif.gif">
                 <p><i>Bizzy Bee</i> Browser Game</p>
             </a>
         </div>
-        <div class="mockup">
-            <a href="https://itsanerin.github.io/Final/index.html" target="_blank"> <img src="images/jblack-mockup.jpg">
-                <p>J. Black Musician Website</p>
+        <div class="project" id="mockup">
+            <a href="https://itsanerin.github.io/Final/index.html" target="_blank">
+                <img src="images/jblack-mockup.jpg">
+                <p><i>J. Black</i> Musician Website</p>
             </a>
         </div>
 
-        <h2 class="connect">Connect With Me:</h2>
+        <div class="project" id="hackathon">
+            <a href="https://devpost.com/software/no-means-no" target="_blank">
+                <img src="images/tech.jpg">
+                <p>BMCC Hack-a-thon <b>2nd Place Winner</b>: <i>"No Means No!"</i> Web Presentation & Pygame Application</p>
+            </a>
+        </div>
 
-        <ul class="contact">
-            <li><a href="https://www.linkedin.com/in/itsanerin/">LinkedIn</a></li>
-            <li>erinxnxbrady@gmail.com</li>
-        </ul>
     </div>
+
+    <footer>
+        <h2 class="connect">Connect With Me:</h2>
+        <a href="https://www.linkedin.com/in/itsanerin/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/itsanerin/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/itsanerin" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:erinxnxbrady@gmail.com" target="_top"><i class="far fa-envelope"></i></a>
+    </footer>
 </body>
+
 </html>

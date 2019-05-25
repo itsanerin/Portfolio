@@ -1,0 +1,112 @@
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+.block1bg {
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block1 {
+    grid-column: 1 / span 4;
+    grid-row: 2;
+    position: relative;
+}
+
+.block1text {
+
+    /*center text in header div*/
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 5em 0 5em 5em;
+    padding: 1.5em;
+    width: 30%;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+.subtitle {
+    border-bottom: 1.5px solid white;
+    width: 30%;
+    margin: 20px auto;
+    padding-bottom: 10px;
+}
+
+#latest {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+}
+
+#other {
+    grid-column: 1 / span 4;
+    grid-row: 5;
+}
+
+/*project grid placements*/
+
+/*latest*/
+#oh-hiroshima {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+
+#nanny {
+    grid-column: 3 / span 2;
+    grid-row: 4;
+}
+
+/*other*/
+
+#game {
+    grid-column: 1 / span 2;
+    grid-row: 7;
+}
+
+#mockup {
+    grid-column: 3 / span 2;
+    grid-row: 7;
+}
+
+#hackathon {
+    grid-column: 1 / span 2;
+    grid-row: 6;
+    margin-top: 4em;
+}
+
+
+.project p {
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 0;
+}
+
+img {
+    width: 100%;
+}
+
+#mockup img {
+    padding-top: 9em;
+}
+
+#mockup img,
+#hackathon img,
+#oh-hiroshima img,
+#nanny img {
+    padding-bottom: 20px;
+}
+
+#hackathon img {
+    margin: 0 auto;
+}
