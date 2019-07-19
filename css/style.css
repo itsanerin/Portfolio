@@ -39,6 +39,14 @@ body {
     float: right;
 }
 
+ul.wide {
+    display: inline-block;
+}
+
+ul.mobile {
+    display: none;
+}
+
 .header li {
     float: right;
     margin-right: 3em;
@@ -53,6 +61,7 @@ a {
 }
 
 a:hover {
+    transition: .5s ease;
     border-bottom: 1px solid skyblue;
     color: skyblue;
 }
@@ -107,4 +116,90 @@ footer a:hover {
 .fab:hover,
 .far:hover {
     color: skyblue;
+}
+
+/*responsive styles*/
+
+/* mobile devices */
+@media only screen and (min-width: 120px) and (max-width: 710px) {
+
+    ul.wide {
+        display: none;
+    }
+
+    ul.mobile {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header ul {
+        padding: 0;
+        margin: 20px auto;
+        text-align: center;
+        float: right;
+        text-align: center;
+    }
+
+    .mobile li {
+        width: 25%;
+        margin-right: 0;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    footer a {}
+}
+
+/*tablet*/
+@media only screen and (min-width: 710px) and (max-width: 975px) {
+    .logo {
+        text-align: left;
+        width: 15%;
+        font-size: 28px;
+        margin-top: 15px;
+    }
+
+    ul.wide {
+        padding: 0;
+        margin: 20px auto !important;
+        float: right;
+        text-align: center !important;
+        width: 70%;
+    }
+
+    .header li {
+        width: 25%;
+        margin-right: 0;
+    }
+
+}
+
+@media only screen and (min-width: 975px) and (max-width: 1320px) {
+    .logo {
+        text-align: left;
+        font-size: 40px;
+        margin-top: 8px;
+    }
+
+    ul.wide {
+        padding: 0;
+        margin: 20px auto !important;
+        float: right;
+        text-align: center !important;
+        width: 70%;
+    }
+
+    .header li {
+        width: 25%;
+        margin-right: 0;
+    }
 }

@@ -21,3 +21,100 @@ img.portrait {
 .contact {
     grid-row: 5;
 }
+
+/*responsive styles*/
+
+/* mobile devices */
+@media only screen and (min-width: 120px) and (max-width: 416px) {
+    .container {
+        grid-template-rows: repeat(3, max-content);
+    }
+
+    img.portrait {
+        grid-column: 1 / span 4;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .intro {
+        grid-column: 1 / span 4;
+        grid-row: 3;
+        font-size: 12px;
+    }
+
+    .connect {
+        grid-row: 4;
+        text-align: center;
+    }
+
+    .contact {
+        grid-row: 5;
+    }
+
+}
+
+@media only screen and (min-width: 416px) and (max-width: 510px) {
+
+    .container {
+        grid-template-rows: repeat(3, max-content);
+    }
+
+    img.portrait {
+        grid-column: 1 / span 4;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .intro {
+        grid-column: 1 / span 4;
+        grid-row: 3;
+        font-size: 15px;
+    }
+
+    .connect {
+        grid-row: 4;
+        text-align: center;
+    }
+
+    .contact {
+        grid-row: 5;
+    }
+}
+
+@media only screen and (min-width: 510px) and (max-width: 710px) {
+
+    .container {
+        grid-template-rows: repeat(3, max-content);
+    }
+
+    img.portrait {
+        grid-column: 1 / span 4;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .intro {
+        grid-column: 1 / span 4;
+        grid-row: 3;
+        font-size: 15px;
+    }
+
+    .connect {
+        grid-row: 4;
+        text-align: center;
+    }
+
+    .contact {
+        grid-row: 5;
+    }
+}
+
+
+/*tablet*/
+@media only screen and (min-width: 710px) and (max-width: 970px) {
+
+    img.portrait {
+        width: 90%;
+        margin: 80px 30px;
+    }
+}
