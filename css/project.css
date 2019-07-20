@@ -1,0 +1,67 @@
+#project-title {
+    text-align: center;
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+#view-link:hover {
+    border: 0;
+}
+
+#view-button {
+    grid-column: 4;
+    grid-row: 1;
+    width: 80%;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-top: 15%;
+}
+
+#view-button:hover {
+    transition: .2s ease;
+    color: skyblue;
+    border: 3px solid skyblue;
+}
+
+.container p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+#p1 {
+    grid-column: 1 / span 4;
+    grid-row: 2;
+    margin-bottom: 20px;
+}
+
+#p2 {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+
+#original {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+#p3 {
+    grid-column: 3 / span 2;
+    grid-row: 4;
+    width: 90%;
+}
+
+#redesign {
+    grid-column: 3 / span 2;
+    grid-row: 3;
+    width: 70%;
+    margin: 0 auto;
+}
