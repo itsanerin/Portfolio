@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .post {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, max-content);
@@ -70,16 +74,309 @@ h2 {
 /*responsive styles*/
 
 /* mobile devices */
-@media only screen and (min-width: 120px) and (max-width: 375px) {}
+@media only screen and (min-width: 120px) and (max-width: 416px) {
 
-@media only screen and (min-width: 375px) and (max-width: 416px) {}
+    .container {
+        width: 95%;
+    }
 
-@media only screen and (min-width: 416px) and (max-width: 510px) {}
+    .post {
+        grid-template-rows: repeat(15, max-content);
+        padding: 20px;
+    }
 
-@media only screen and (min-width: 510px) and (max-width: 710px) {}
+    p {
+        text-indent: 1.5em;
+        margin: .1em auto;
+        font-size: 10px;
+        letter-spacing: 1px;
+        line-height: 2.5em;
+    }
+
+    .post h2 {
+        grid-column: 1 / span 6;
+        grid-row: 1;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .post #credit {
+        grid-row: 2;
+        grid-column: 1 / span 6;
+        margin: 0 0 20px;
+        text-align: right;
+        font-size: 10px;
+    }
+
+    .caption {
+        font-size: 10px;
+    }
+
+    #billboard {
+        grid-column: 1 / span 6;
+        grid-row: 3;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #p1 {
+        grid-column: 1 / span 6;
+        grid-row: 4;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #p2 {
+        grid-column: 1 / span 6;
+        grid-row: 5;
+        width: 100%;
+    }
+
+    #p3 {
+        grid-column: 1 / span 6;
+        grid-row: 6;
+        width: 100%;
+    }
+
+    #gym {
+        grid-column: 1 / span 6;
+        grid-row: 7;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #p4 {
+        grid-column: 1 / span 6;
+        grid-row: 8;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 416px) and (max-width: 710px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .post {
+        grid-template-rows: repeat(15, max-content);
+        padding: 20px;
+    }
+
+    p {
+        text-indent: 2em;
+        margin: .1em auto;
+        font-size: 12px;
+    }
+
+    .post h2 {
+        grid-column: 1 / span 6;
+        grid-row: 1;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .post #credit {
+        grid-row: 2;
+        grid-column: 1 / span 6;
+        margin: 0 0 20px;
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .caption {
+        font-size: 12px;
+    }
+
+    #billboard {
+        grid-column: 1 / span 6;
+        grid-row: 3;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #p1 {
+        grid-column: 1 / span 6;
+        grid-row: 4;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #p2 {
+        grid-column: 1 / span 6;
+        grid-row: 5;
+        width: 100%;
+    }
+
+    #p3 {
+        grid-column: 1 / span 6;
+        grid-row: 6;
+        width: 100%;
+    }
+
+    #gym {
+        grid-column: 1 / span 6;
+        grid-row: 7;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #p4 {
+        grid-column: 1 / span 6;
+        grid-row: 8;
+        width: 100%;
+    }
+}
 
 
 /*tablet*/
-@media only screen and (min-width: 710px) and (max-width: 975px) {}
+@media only screen and (min-width: 710px) and (max-width: 975px) {
 
-@media only screen and (min-width: 975px) and (max-width: 1320px) {}
+    .container {
+        width: 95%;
+    }
+
+    .post {
+        grid-template-rows: repeat(15, max-content);
+        padding: 20px;
+    }
+
+    p {
+        text-indent: 2em;
+        margin: .75em auto;
+        font-size: 18px;
+    }
+
+    .post h2 {
+        grid-column: 1 / span 6;
+        grid-row: 1;
+        width: 100%;
+        font-size: 65px;
+    }
+
+    .post #credit {
+        grid-row: 2;
+        grid-column: 1 / span 6;
+        margin: 28px 0;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .caption {
+        font-size: 12px;
+    }
+
+    #billboard {
+        grid-column: 1 / span 6;
+        grid-row: 3;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #p1 {
+        grid-column: 1 / span 6;
+        grid-row: 4;
+        width: 100%;
+    }
+
+    #p2 {
+        grid-column: 1 / span 6;
+        grid-row: 5;
+        width: 100%;
+    }
+
+    #p3 {
+        grid-column: 1 / span 6;
+        grid-row: 6;
+        width: 100%;
+    }
+
+    #gym {
+        grid-column: 1 / span 6;
+        grid-row: 7;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    #p4 {
+        grid-column: 1 / span 6;
+        grid-row: 8;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 975px) and (max-width: 1320px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .post {
+        grid-template-rows: repeat(15, max-content);
+        padding: 20px;
+    }
+
+    p {
+        text-indent: 2em;
+        margin: .75em auto;
+        font-size: 18px;
+    }
+
+    .post h2 {
+        grid-column: 1 / span 6;
+        grid-row: 1;
+        width: 100%;
+        font-size: 65px;
+    }
+
+    .post #credit {
+        grid-row: 2;
+        grid-column: 1 / span 6;
+        margin: 28px 0;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .caption {
+        font-size: 12px;
+    }
+
+    #billboard {
+        grid-column: 1 / span 6;
+        grid-row: 3;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #p1 {
+        grid-column: 1 / span 6;
+        grid-row: 4;
+        width: 100%;
+    }
+
+    #p2 {
+        grid-column: 1 / span 6;
+        grid-row: 5;
+        width: 100%;
+    }
+
+    #p3 {
+        grid-column: 1 / span 6;
+        grid-row: 6;
+        width: 100%;
+    }
+
+    #gym {
+        grid-column: 1 / span 6;
+        grid-row: 7;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    #p4 {
+        grid-column: 1 / span 6;
+        grid-row: 8;
+        width: 100%;
+    }
+}

@@ -1,3 +1,7 @@
+.container {
+    grid-template-rows: repeat(3, max-content);
+}
+
 .post {
     border: 1px solid white;
     border-radius: 20px 20px 20px 0;
@@ -103,16 +107,88 @@ div.post .readmore:hover {
 /*responsive styles*/
 
 /* mobile devices */
-@media only screen and (min-width: 120px) and (max-width: 375px) {}
+@media only screen and (min-width: 120px) and (max-width: 420px) {
 
-@media only screen and (min-width: 375px) and (max-width: 416px) {}
+    .post {
+        padding: 5px;
+    }
 
-@media only screen and (min-width: 416px) and (max-width: 510px) {}
+    .postlink h2 {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
 
-@media only screen and (min-width: 510px) and (max-width: 710px) {}
+    .postlink blockquote {
+        font-size: 12px;
+        margin: auto 15px;
+    }
+
+    .post1 {
+        grid-column: 1 / span 4;
+        grid-row: 2;
+    }
+
+    .post2 {
+        grid-column: 1 / span 4;
+        grid-row: 3;
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 710px) {
+
+    .post {
+        padding: 15px;
+    }
+
+    .postlink h2 {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .postlink blockquote {
+        font-size: 12px;
+    }
+
+    .post1 {
+        grid-column: 1 / span 4;
+        grid-row: 2;
+    }
+
+    .post2 {
+        grid-column: 1 / span 4;
+        grid-row: 3;
+    }
+}
 
 
 /*tablet*/
-@media only screen and (min-width: 710px) and (max-width: 975px) {}
+@media only screen and (min-width: 710px) and (max-width: 975px) {
 
-@media only screen and (min-width: 975px) and (max-width: 1320px) {}
+    .post {
+        padding: 6px;
+    }
+
+    .postlink h2 {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .postlink blockquote {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 975px) and (max-width: 1320px) {
+
+    .post {
+        padding: 15px;
+    }
+
+    .postlink h2 {
+        font-size: 20px;
+    }
+
+    .postlink blockquote {
+        font-size: 16px;
+    }
+}

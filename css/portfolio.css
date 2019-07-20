@@ -134,16 +134,155 @@ h2 {
 /*responsive styles*/
 
 /* mobile devices */
-@media only screen and (min-width: 120px) and (max-width: 375px) {}
+@media only screen and (min-width: 120px) and (max-width: 410px) {
 
-@media only screen and (min-width: 375px) and (max-width: 416px) {}
+    .block1text {
+        font-size: 9px;
+    }
 
-@media only screen and (min-width: 416px) and (max-width: 510px) {}
+    p {
+        font-size: 12px;
+    }
 
-@media only screen and (min-width: 510px) and (max-width: 710px) {}
+    .subtitle {
+        font-size: 14px;
+    }
+
+    #oh-hiroshima {
+        grid-column: 1/ span 4;
+    }
+
+    #nanny {
+        grid-column: 1/ span 4;
+        grid-row: 5;
+    }
+
+    #sub2 {
+        grid-row: 6;
+    }
+
+    #game {
+        grid-column: 1/ span 4;
+        grid-row: 7;
+    }
+
+    #trinity {
+        grid-column: 1/ span 4;
+        grid-row: 8;
+        padding: 0;
+    }
+
+    #trinity p {
+        padding-top: 5px;
+    }
+
+    .project p {
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 410px) and (max-width: 510px) {
+
+    .block1text,
+    p {
+        font-size: 12px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    #oh-hiroshima {
+        grid-column: 1/ span 4;
+    }
+
+    #nanny {
+        grid-column: 1/ span 4;
+        grid-row: 5;
+    }
+
+    #sub2 {
+        grid-row: 6;
+    }
+
+    #game {
+        grid-column: 1/ span 4;
+        grid-row: 7;
+    }
+
+    #trinity {
+        grid-column: 1/ span 4;
+        grid-row: 8;
+        padding: 0;
+    }
+
+    #trinity p {
+        padding-top: 5px;
+    }
+
+    .project p {
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 510px) and (max-width: 710px) {
+
+    .block1text,
+    p {
+        font-size: 14px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    #oh-hiroshima {
+        grid-column: 1/ span 4;
+    }
+
+    #nanny {
+        grid-column: 1/ span 4;
+        grid-row: 5;
+    }
+
+    #sub2 {
+        grid-row: 6;
+    }
+
+    #game {
+        grid-column: 1/ span 4;
+        grid-row: 7;
+    }
+
+    #trinity {
+        grid-column: 1/ span 4;
+        grid-row: 8;
+        padding: 0;
+    }
+
+    #trinity p {
+        padding-top: 5px;
+    }
+
+    .project p {
+        padding-bottom: 40px;
+    }
+}
 
 
 /*tablet*/
-@media only screen and (min-width: 710px) and (max-width: 975px) {}
+@media only screen and (min-width: 710px) and (max-width: 975px) {
+    .block1text {
+        font-size: 16px;
+    }
 
-@media only screen and (min-width: 975px) and (max-width: 1320px) {}
+    .subtitle {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 975px) and (max-width: 1320px) {
+    .block1text {
+        font-size: 25px;
+    }
+}
