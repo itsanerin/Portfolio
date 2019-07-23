@@ -1,0 +1,45 @@
+.container {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.container img {
+    width: 95%;
+}
+
+#view-button {
+    grid-column: 5 / span 2;
+    width: 100%;
+}
+
+#p1 {
+    grid-column: 1 / span 6;
+    grid-row: 2;
+    margin-bottom: 20px;
+}
+
+#tutorial {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    /*    width: 100%;*/
+    margin: 0 auto;
+}
+
+#gameplay {
+    grid-column: 3 / span 2;
+    grid-row: 3;
+    /*    width: 100%;*/
+    margin: 0 auto;
+}
+
+#death {
+    grid-column: 5 / span 2;
+    grid-row: 3;
+    /*    width: 100%;*/
+    margin: 0 auto;
+}
+
+#p2 {
+    grid-column: 1 / span 6;
+    grid-row: 4;
+    margin-top: 20px;
+}

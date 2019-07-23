@@ -4,7 +4,7 @@ var container = document.getElementById("container");
 function setup() {
 
     var canvas = createCanvas(gameWidth, gameHeight);
-    canvas.parent('#container');
+    canvas.parent('#canvas');
 
 
 

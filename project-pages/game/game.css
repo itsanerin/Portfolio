@@ -1,6 +1,9 @@
-#container {
-    grid-column: 1 / span 2;
-    grid-row: 2;
+.container {
+    grid-template-rows: repeat(3, max-content);
+    height: 100%;
+}
+
+#canvas {
     position: relative;
     margin-top: 20px;
     width: 100%;
@@ -19,8 +22,6 @@ canvas {
 
 
 img {
-    grid-column: 1 / span 2;
-    grid-row: 2;
     position: absolute;
     top: 180px;
     left: 10px;
@@ -38,4 +39,9 @@ p {
     line-height: 1.3em;
     font-weight: 350;
     font-size: 1.2em;
+}
+
+footer {
+    margin-top: 850px;
+    width: 100%;
 }

@@ -4,8 +4,8 @@
 <head>
     <title>My First Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../game/game.css" rel="stylesheet">
     <link href="../../css/style.css" rel="stylesheet">
+    <link href="../game/game.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Megrim|Raleway:100,100i,200,200i,300,300i,400" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,17 +15,26 @@
     <div class="container">
         <div class="header">
             <h1 class="logo">Its{An:Erin;}</h1>
-            <ul>
-                <li><a href="https://drive.google.com/file/d/1AxLQovT1U7h4O3jAsGFdCq6aC8YekZXV/view?usp=sharing" target="_blank">Resume</a></li>
-                <li><a href="../../about.html">About Me</a></li>
-                <li><a href="../../writing.html">My Writing</a></li>
-                <li><a href="../../index.html" class="active">Portfolio</a></li>
+            <ul class="wide">
+                <li><a href="https://drive.google.com/file/d/1Sbqvr0k5uBAble-Fymq83uF0F1Fjzg3-/view?usp=sharing" target="_blank">Resume</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="writing.html">My Writing</a></li>
+                <li><a href="index.html" class="active">Portfolio</a></li>
+            </ul>
+
+            <ul class="mobile">
+                <li><a href="https://drive.google.com/file/d/1Sbqvr0k5uBAble-Fymq83uF0F1Fjzg3-/view?usp=sharing" target="_blank"><i class="fas fa-file-alt"></i></a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i></a></li>
+                <li><a href="writing.html"><i class="fas fa-pen-nib"></i></a></li>
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i></a></li>
             </ul>
         </div>
 
         <!--     </div>-->
-        <div id="container"> </div>
-        <img src="gametv.png" id="tv">
+        <div id="game">
+            <div id="canvas"> </div>
+            <img src="gametv.png" id="tv">
+        </div>
 
         <!-- libraries -->
         <script src="p5.min.js"></script>
@@ -46,10 +55,6 @@
             })
 
         </script>
-
-        <p>
-            <i>Bizzy Bee</i> is a browser game coded entirely in JavaScript using the p5.play library. All images and sound effects created by me. Background music created by Jerimiah Black.
-        </p>
 
     </div>
 
